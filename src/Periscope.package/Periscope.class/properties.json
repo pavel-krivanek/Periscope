@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Periscope",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current"
+	],
+	"instvars" : [
+		"listModel",
+		"textModel",
+		"currentBehavior"
+	],
+	"name" : "Periscope",
+	"type" : "normal"
+}
