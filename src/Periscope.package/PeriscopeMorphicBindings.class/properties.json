@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MorphicBindings",
+	"category" : "Periscope",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PeriscopeMorphicBindings",
+	"type" : "normal"
+}
