@@ -1,0 +1,3 @@
+announcements
+showGroupsChanged: anAnnouncement
+

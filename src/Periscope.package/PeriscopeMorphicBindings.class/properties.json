@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "MorphicBindings",
-	"category" : "Periscope",
+	"category" : "Periscope-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "StandardWindow",
-	"category" : "Periscope-Core",
+	"super" : "PeriscopePlugin",
+	"category" : "Periscope-Plugins",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PeriscopeWindow",
+	"name" : "BookmarksPeriscopePlugin",
 	"type" : "normal"
 }

@@ -1,0 +1,3 @@
+announcements
+protocolSelected: anAnnouncement
+

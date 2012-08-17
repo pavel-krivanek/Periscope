@@ -1,4 +1,4 @@
-*Periscope-patch
+*Periscope-Core-patch
 listRenderOn: aCanvas atRow: aRow bounds: bounds color: color from: aMorph
 
 	"http://code.google.com/p/pharo/issues/detail?id=6567"

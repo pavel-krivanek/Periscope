@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "NautilusPluginManager",
 	"category" : "Periscope-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"model",
-		"position"
-	],
-	"name" : "PeriscopePlugin",
+	"instvars" : [ ],
+	"name" : "PeriscopePluginManager",
 	"type" : "normal"
 }

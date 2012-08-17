@@ -1,11 +1,12 @@
 {
 	"commentStamp" : "",
 	"super" : "ComposableModel",
-	"category" : "Periscope",
+	"category" : "Periscope-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"Current"
+		"Current",
+		"PluginClasses"
 	],
 	"instvars" : [
 		"listModel",
