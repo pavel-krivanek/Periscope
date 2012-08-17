@@ -10,7 +10,7 @@ initializeWidgets
 	
 	buttonModel
 		state: false;
-		label: 'Bahavior refserences';
+		label: 'Behavior references';
 		action: [ self browseReferences].
 			
 	listModel items: Array new.
