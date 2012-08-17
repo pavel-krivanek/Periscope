@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	
-	self font: (LogicalFont familyName: 'Bitmap DejaVu Sans' pointSize: 14).
+	self font: (LogicalFont familyName: 'Bitmap DejaVu Sans' pointSize: 7).
 	
 	
