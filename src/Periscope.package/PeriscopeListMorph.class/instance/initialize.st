@@ -3,5 +3,6 @@ initialize
 
 	super initialize.
 	
-	self font: ((TextStyle named: #DefaultTextStyle) fontOfPointSize: 7).
+	self font: (LogicalFont familyName: 'Bitmap DejaVu Sans' pointSize: 14).
+	
 	

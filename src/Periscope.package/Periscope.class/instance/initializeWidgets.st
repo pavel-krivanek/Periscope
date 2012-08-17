@@ -8,3 +8,5 @@ initializeWidgets
 	listModel bindings: PeriscopeMorphicBindings new.
 	
 	listModel items: Array new.
+	
+	self setListMenu.
