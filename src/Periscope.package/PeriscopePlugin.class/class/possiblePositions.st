@@ -1,7 +1,7 @@
 as yet unclassified
 possiblePositions
 
-"for nautilus plugins compatibility"
+	"for Nautilus plugins compatibility"
 
 	^ {	#top.
 		#middle.

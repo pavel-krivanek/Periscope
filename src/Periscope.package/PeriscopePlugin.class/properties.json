@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ComposableModel",
 	"category" : "Periscope-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,6 +1,7 @@
-accessing
+as yet unclassified
 initialize
 
 	super initialize.
-	
-	self bindings: PeriscopeMorphicBindings new.
+	plugins := OrderedCollection new.
+	self class pluginClasses do: [:class |
+		plugins add: (class model: self)]

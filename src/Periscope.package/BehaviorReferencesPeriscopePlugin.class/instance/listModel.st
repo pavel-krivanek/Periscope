@@ -1,6 +1,4 @@
 as yet unclassified
-initializeWidgets
-
+listModel
 	
-
-	
+	^ listModel

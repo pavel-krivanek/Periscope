@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"listModel",
+		"buttonModel",
+		"currentBehavior"
+	],
 	"name" : "BehaviorReferencesPeriscopePlugin",
 	"type" : "normal"
 }

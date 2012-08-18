@@ -1,4 +1,7 @@
 as yet unclassified
 pluginClasses
 
-	^ PluginClasses ifNil: [ PluginClasses := OrderedCollection new ].
+	^ { BehaviorReferencesPeriscopePlugin. BookmarksPeriscopePlugin }
+	"
+
+	^ PluginClasses ifNil: [ PluginClasses := OrderedCollection new ]."

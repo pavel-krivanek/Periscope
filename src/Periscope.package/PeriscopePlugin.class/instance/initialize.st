@@ -1,8 +1,6 @@
-announcements
+as yet unclassified
 initialize
-
-	| font |
 
 	super initialize.
 	
-	Periscope ensureNew.
+	self bindings: PeriscopeMorphicBindings new.
