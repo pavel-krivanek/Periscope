@@ -1,3 +1,3 @@
-announcements
+as yet unclassified
 protocolSelected: anAnnouncement
 

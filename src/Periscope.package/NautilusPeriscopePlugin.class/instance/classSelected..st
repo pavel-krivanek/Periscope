@@ -1,5 +1,5 @@
 announcements
 classSelected: anAnnouncement
 	
-	Periscope current showBehavior: anAnnouncement itemClass .
+	Periscope current classSelected: anAnnouncement itemClass .
 		

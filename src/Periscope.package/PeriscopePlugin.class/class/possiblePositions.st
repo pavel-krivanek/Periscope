@@ -3,7 +3,4 @@ possiblePositions
 
 	"for Nautilus plugins compatibility"
 
-	^ {	#top.
-		#middle.
-		#bottom.
-		#none. }
+	^ {	#none. }
