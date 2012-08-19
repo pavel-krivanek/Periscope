@@ -7,7 +7,7 @@ defaultSpec
 	spec addAll: {#changeTableLayout.
 			#listDirection:.		#topToBottom.
 			#hResizing:.	#spaceFill.
-			#vResizing:.	#shrinkWrap.}.
+			#vResizing:.	#spaceFill.}.
 	self pluginClasses do:  [:c | 
 		spec add: #addMorph:.
 		spec add: {(self pluginOf: c) defaultSpec}].

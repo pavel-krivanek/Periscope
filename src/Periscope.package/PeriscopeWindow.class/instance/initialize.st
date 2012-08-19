@@ -5,5 +5,5 @@ initialize
 	
 	self setToAdhereToEdge: #topRight.
 	self snapToEdgeIfAppropriate.
-	self makeUnclosable.
+	"self makeUnclosable."
 	self toggleStickiness.
