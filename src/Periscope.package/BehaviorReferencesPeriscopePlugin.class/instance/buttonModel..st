@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 buttonModel: anObject
 	buttonModel := anObject

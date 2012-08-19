@@ -1,14 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "PeriscopePlugin",
 	"category" : "Periscope-Plugins",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"listModel",
 		"buttonModel",
-		"currentBehavior"
+		"currentBehavior",
+		"listModel"
 	],
 	"name" : "BehaviorReferencesPeriscopePlugin",
 	"type" : "normal"

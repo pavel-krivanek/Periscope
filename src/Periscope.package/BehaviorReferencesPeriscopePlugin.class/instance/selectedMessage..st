@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedMessage: aMessage
 
 	listModel setSelectedItem: aMessage.

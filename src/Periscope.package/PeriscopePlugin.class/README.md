@@ -1,0 +1,1 @@
+A PeriscopePlugin is an abstract Periscope plugin class. Periscope plugins should be subclasses of this class.

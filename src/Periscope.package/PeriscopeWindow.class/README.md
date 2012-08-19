@@ -1,0 +1,1 @@
+A PeriscopeWindow is special Window that snaps to display edge 

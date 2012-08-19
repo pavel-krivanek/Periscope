@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 browseReferences
 
 	currentBehavior ifNotNilDo: [:aBehavior |

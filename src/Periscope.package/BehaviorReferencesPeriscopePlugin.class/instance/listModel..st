@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 listModel: anObject
 	
 	listModel := anObject
