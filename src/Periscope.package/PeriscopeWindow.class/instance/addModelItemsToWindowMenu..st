@@ -6,5 +6,7 @@ addModelItemsToWindowMenu: aMenu
 	aMenu addLine;
 		add: 'Periscope Plugins Manager'
 		target: PeriscopePluginManager new
-		action: #openInWorld.
-		
+		action: #openInWorld;
+		add: 'reset plugins'
+		target: self
+		action: #resetPlugins.
