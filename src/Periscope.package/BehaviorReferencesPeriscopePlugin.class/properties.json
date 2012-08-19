@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonModel",
 		"currentBehavior",
+		"buttonModel",
 		"listModel"
 	],
 	"name" : "BehaviorReferencesPeriscopePlugin",

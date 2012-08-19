@@ -7,5 +7,9 @@ setListMenu
 			add: 'Browse full... (b)'
 			target: Smalltalk tools browser
 			selector: #fullOnClass:selector:
-			argumentList: {message methodClass. message selector }.
+			argumentList: {message methodClass. message selector };
+			add: 'remove'
+			target: self
+			selector: #removeBookmark:
+			argumentList: {message }.
 		menu]
