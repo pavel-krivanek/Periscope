@@ -17,7 +17,7 @@ initializeWidgets
 		label: 'Add';
 		action: [ self addBookmark].
 
-	listModel items: Array new.
+	self listModel items: self currentBookmarks asArray.
 	
 	self setListMenu. 
 
