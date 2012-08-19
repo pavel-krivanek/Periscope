@@ -1,9 +1,11 @@
 as yet unclassified
 pluginOf: aClass
 
-	| plugin |
+	| plugin class |
 	
-	plugin := aClass model: self.
+	class := aClass isArray ifTrue: [aClass first] ifFalse: [aClass].
+	
+	plugin := class model: self.
 	self current addPlugin: plugin.
 	
 	^ plugin
