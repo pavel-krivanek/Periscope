@@ -1,4 +1,4 @@
 as yet unclassified
 getPluginClassesList
 
-	^ PeriscopePlugin allSubclasses sort: [:a :b | a pluginName <= b pluginName ]
+	^ Periscope pluginClasses sort: [:a :b | a pluginName <= b pluginName ]

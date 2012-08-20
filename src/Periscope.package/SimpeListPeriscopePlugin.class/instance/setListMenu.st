@@ -1,6 +1,7 @@
-as yet unclassified
+actions
 setListMenu
 
+"
 	listModel menu: [:menu || message |
 		message := self selectedMessage.
 		menu
@@ -9,3 +10,4 @@ setListMenu
 			selector: #fullOnClass:selector:
 			argumentList: {message methodClass. message selector }.
 		menu]
+"

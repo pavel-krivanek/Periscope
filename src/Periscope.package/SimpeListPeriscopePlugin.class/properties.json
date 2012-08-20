@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PeriscopePlugin",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentBehavior",
+		"buttonModel",
+		"listModel"
+	],
+	"name" : "SimpeListPeriscopePlugin",
+	"type" : "normal"
+}

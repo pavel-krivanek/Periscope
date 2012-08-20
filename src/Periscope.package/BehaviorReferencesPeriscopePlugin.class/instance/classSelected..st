@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 classSelected: aBehaviorOrNil
 
 	currentBehavior = aBehaviorOrNil ifTrue: [^ self ].

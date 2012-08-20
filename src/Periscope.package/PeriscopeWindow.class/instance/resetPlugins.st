@@ -1,6 +1,6 @@
 as yet unclassified
 resetPlugins
 
-	Periscope pluginClasses: nil.
+	Periscope pluginClasses: Periscope defaultPlugins copy.
 	Periscope current window rebuildWithSpec: #defaultSpec
 	

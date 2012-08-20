@@ -1,0 +1,4 @@
+accessing
+selectedMessage
+
+	^ listModel selectedItem

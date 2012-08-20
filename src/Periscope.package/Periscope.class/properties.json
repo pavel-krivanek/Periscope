@@ -9,7 +9,9 @@
 		"PluginClasses"
 	],
 	"instvars" : [
-		"plugins"
+		"plugins",
+		"lastText",
+		"lastInterval"
 	],
 	"name" : "Periscope",
 	"type" : "normal"

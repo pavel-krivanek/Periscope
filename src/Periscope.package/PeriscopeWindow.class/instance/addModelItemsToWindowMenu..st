@@ -14,4 +14,10 @@ addModelItemsToWindowMenu: aMenu
 		
 		add: 'reload plugins'
 		target: self
-		action: #reloadPlugins.			
+		action: #reloadPlugins;	
+				
+		addLine;
+		
+		add: 'close'
+		target: self
+		action: #close.		
