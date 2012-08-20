@@ -1,7 +1,8 @@
 as yet unclassified
 defaultPlugins
 
-	^ {	BehaviorReferencesPeriscopePlugin. 
+	^ {	ShowImplementationPeriscopePlugin.
+		BehaviorReferencesPeriscopePlugin. 
 		BookmarksPeriscopePlugin.
 		ToolsPeriscopePlugin
 	   } asOrderedCollection

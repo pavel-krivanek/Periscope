@@ -7,5 +7,5 @@ selectionChanged
 	super selectionChanged.
 				
 	Smalltalk at: #Periscope ifPresent: [:periscope | 
-		[periscope current selectionChanged: self selectionInterval: self selectionInterval] ifError: []].
+		[periscope current selectionChanged: self text selectionInterval: self selectionInterval] ifError: []].
 	

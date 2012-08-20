@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"currentBehavior",
 		"buttonModel",
 		"listModel"
 	],
