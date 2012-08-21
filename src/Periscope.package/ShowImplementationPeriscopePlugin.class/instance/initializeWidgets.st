@@ -7,6 +7,8 @@ initializeWidgets
 		buttonModel ButtonModel ).
 		
 	listModel bindings: PeriscopeMorphicBindings new.
+	textModel bindings: PeriscopeMorphicBindings new.
+	
 	textModel aboutToStyle: true.
 	
 	buttonModel

@@ -6,5 +6,6 @@ processNode: aNode
 		^ self].
 		
 	self listModel items: Array new.
+	self textModel text: ''.
 
 	

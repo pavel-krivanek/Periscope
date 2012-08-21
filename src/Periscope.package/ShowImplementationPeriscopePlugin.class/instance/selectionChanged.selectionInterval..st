@@ -11,5 +11,7 @@ selectionChanged: aText selectionInterval: anInterval
 		tree := parser parseMethod: string.
 		node := tree bestNodeFor: interval.
 		self processNode: node.
-] ifError: [:e| self listModel items: {e asString}].
+] ifError: [:e| 
+	self textModel aboutToStyle: false.
+	self textModel text:  e asString.]
 	] forkAt: Processor userBackgroundPriority
