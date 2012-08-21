@@ -3,6 +3,9 @@ processSelector: aSelector
 
 	| implementations source class |
 	
+	aSelector = lastSelector ifTrue: [^ self].
+	lastSelector := aSelector.
+	
 	implementations := SystemNavigation default allImplementorsOf: aSelector.
 	
 	self listModel items: implementations.
@@ -13,6 +16,6 @@ processSelector: aSelector
 	self textModel aboutToStyle: true.
 	self textModel text: source.
 	self textModel behavior: class.
-	"self textModel textMorph font: (LogicalFont familyName: 'Bitmap DejaVu Sans' pointSize: 7).
-"
+	
+
 	

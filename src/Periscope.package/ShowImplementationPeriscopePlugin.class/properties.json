@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textModel"
+		"textModel",
+		"lastSelector"
 	],
 	"name" : "ShowImplementationPeriscopePlugin",
 	"type" : "normal"
