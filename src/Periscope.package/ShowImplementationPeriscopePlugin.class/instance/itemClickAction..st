@@ -2,4 +2,5 @@ as yet unclassified
 itemClickAction: item
 
 	item ifNotNil: [
-			Smalltalk tools browser fullOnClass: item methodClass selector: item selector]
+		self textModel text: item sourceCode.
+		self textModel behavior: item realClass.]

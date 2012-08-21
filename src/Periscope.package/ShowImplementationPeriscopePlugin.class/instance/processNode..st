@@ -1,12 +1,8 @@
 as yet unclassified
 processNode: aNode
 
-	aNode isMessage ifTrue: [
-		self listModel items: (SystemNavigation default allImplementorsOf: aNode selector).
-		^ self].
-
-	aNode isMethod ifTrue: [
-		self listModel items: (SystemNavigation default allImplementorsOf: aNode selector).
+	(aNode isMessage or: [aNode isMethod]) ifTrue: [
+		self processSelector: aNode selector.
 		^ self].
 		
 	self listModel items: Array new.
