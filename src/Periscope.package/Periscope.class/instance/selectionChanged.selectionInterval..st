@@ -1,8 +1,8 @@
 accessing
 selectionChanged: aText selectionInterval: anInterval
 
-	((aText == lastText) not or: [anInterval ~= lastInterval])
-		ifFalse: [ ^ self].
+	((aText == lastText) and: [anInterval = lastInterval])
+		ifTrue: [ ^ self].
 				
 	lastText := aText.
 	lastInterval := anInterval.
