@@ -7,9 +7,13 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"browserButtonModel",
-		"workspaceButtonModel",
+		"finderButtonModel",
+		"monticelloButtonModel",
+		"processBrowserButtonModel",
+		"recentMessagesButtonModel",
 		"testRunnerButtonModel",
-		"monticelloButtonModel"
+		"transcriptButtonModel",
+		"workspaceButtonModel"
 	],
 	"name" : "ToolsPeriscopePlugin",
 	"type" : "normal"

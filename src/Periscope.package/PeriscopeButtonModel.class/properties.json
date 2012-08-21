@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ButtonModel",
+	"category" : "Periscope-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"iconHolder"
+	],
+	"name" : "PeriscopeButtonModel",
+	"type" : "normal"
+}
