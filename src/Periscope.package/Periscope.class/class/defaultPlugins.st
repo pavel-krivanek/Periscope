@@ -5,5 +5,6 @@ defaultPlugins
 		TimeStampPeriscopePlugin.
 		BehaviorReferencesPeriscopePlugin. 
 		BookmarksPeriscopePlugin.
-		ToolsPeriscopePlugin
+		ToolsPeriscopePlugin.
+		SpotlightPeriscopePlugin
 	   } asOrderedCollection
