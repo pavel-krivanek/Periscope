@@ -9,6 +9,8 @@ processSelector: aSelector
 	implementations := SystemNavigation default allImplementorsOf: aSelector.
 	
 	self listModel items: implementations.
+	implementations ifNotEmpty: [
+		self listModel setSelectedItem: implementations first.].
 	
 	source := implementations ifNotEmpty: [implementations first sourceCode] ifEmpty: [nil].
 	class := implementations ifNotEmpty: [implementations first realClass] ifEmpty: [nil].
