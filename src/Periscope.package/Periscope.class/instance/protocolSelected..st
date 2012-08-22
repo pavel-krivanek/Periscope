@@ -1,5 +1,7 @@
 accessing
 protocolSelected: aBehaviorOrNil
 
+	self isActive ifFalse: [^ self].
+	
 	plugins do: [:plugin | 
-		plugin protocolSelected: aBehaviorOrNil ].
+		self doSafely: [plugin protocolSelected: aBehaviorOrNil ]]

@@ -1,5 +1,7 @@
 accessing
 methodSelected: aBehaviorOrNil
 
+	self isActive ifFalse: [^ self].
+	
 	plugins do: [:plugin | 
-		plugin methodSelected: aBehaviorOrNil ].
+		self doSafely: [plugin methodSelected: aBehaviorOrNil ]]

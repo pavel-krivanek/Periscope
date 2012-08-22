@@ -1,6 +1,8 @@
 accessing
 selectionChanged: aText selectionInterval: anInterval
 
+	self isActive ifFalse: [^ self].
+
 	((aText == lastText) and: [anInterval = lastInterval])
 		ifTrue: [ ^ self].
 				
@@ -8,5 +10,5 @@ selectionChanged: aText selectionInterval: anInterval
 	lastInterval := anInterval.
 	
 	plugins do: [:plugin | 
-		plugin selectionChanged: aText selectionInterval: anInterval ].
+		self doSafely: [plugin selectionChanged: aText selectionInterval: anInterval ]].
 	

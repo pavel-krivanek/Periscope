@@ -1,5 +1,7 @@
 accessing
 packageSelected: aBehaviorOrNil
 
+	self isActive ifFalse: [^ self].
+
 	plugins do: [:plugin | 
-		plugin packageSelected: aBehaviorOrNil ].
+		self doSafely: [plugin packageSelected: aBehaviorOrNil ]]

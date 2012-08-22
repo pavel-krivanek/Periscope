@@ -1,5 +1,7 @@
 accessing
 groupSelected: aBehaviorOrNil
 
-	plugins do: [:plugin | 
-		plugin groupSelected: aBehaviorOrNil ].
+	self isActive ifFalse: [^ self].
+	
+	 plugins do: [:plugin | 
+		self doSafely: [plugin groupSelected: aBehaviorOrNil ]].
