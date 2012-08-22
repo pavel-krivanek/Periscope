@@ -3,10 +3,11 @@ initializeWidgets
 
 	self instantiateModels: #(
 		textModel TextInputFieldModel ).
+		
+	self class current: textModel.
 			
 	textModel
 		acceptOnCR: true;
 		acceptBlock: [self accept];
-		ghostText: 'Search...' "(Shift+Enter)"
-		"on: #keyStroke send: #value:value: to: [:key :morph | key keyCharacter = Character cr ifTrue: [ self ok. true]. false]"
+		ghostText: 'Search... (Shift+Enter)' 
 			

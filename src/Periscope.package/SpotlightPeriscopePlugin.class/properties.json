@@ -4,9 +4,12 @@
 	"category" : "Periscope-Plugins",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Current"
+	],
 	"instvars" : [
-		"textModel"
+		"textModel",
+		"previousFocus"
 	],
 	"name" : "SpotlightPeriscopePlugin",
 	"type" : "normal"
