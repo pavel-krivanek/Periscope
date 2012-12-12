@@ -14,10 +14,6 @@ initializeWidgets
 
 		 ).
 
-	{ browserButtonModel. workspaceButtonModel. testRunnerButtonModel. monticelloButtonModel.
-	finderButtonModel. recentMessagesButtonModel. transcriptButtonModel. processBrowserButtonModel} 
-		do: [:m | m bindings: PeriscopeMorphicBindings new].
-
 	browserButtonModel
 		state: false;
 		icon: (AbstractNautilusUI icon);

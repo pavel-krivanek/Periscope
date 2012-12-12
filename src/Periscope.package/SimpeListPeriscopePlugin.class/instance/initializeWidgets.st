@@ -3,10 +3,8 @@ initializeWidgets
 
 	self instantiateModels: #(
 		listModel ListComposableModel
-		buttonModel ButtonModel ).
+		buttonModel PeriscopeButtonModel ).
 		
-	listModel bindings: PeriscopeMorphicBindings new.
-	
 	buttonModel
 		state: false;
 		label: self listLabel;

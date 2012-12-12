@@ -3,11 +3,9 @@ initializeWidgets
 
 	self instantiateModels: #(
 		listModel ListComposableModel
-		buttonModel ButtonModel
-		addButtonModel ButtonModel ).
+		buttonModel PeriscopeButtonModel
+		addButtonModel PeriscopeButtonModel ).
 		
-	listModel bindings: PeriscopeMorphicBindings new.
-	
 	buttonModel
 		state: false;
 		label: 'Bookmarks'.

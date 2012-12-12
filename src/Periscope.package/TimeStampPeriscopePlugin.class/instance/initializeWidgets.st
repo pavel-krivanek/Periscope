@@ -2,7 +2,7 @@ accessing
 initializeWidgets
 
 	self instantiateModels: #(
-		buttonModel ButtonModel ).
+		buttonModel PeriscopeButtonModel ).
 			
 	buttonModel
 		state: false;

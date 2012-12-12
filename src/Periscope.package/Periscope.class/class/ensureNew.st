@@ -5,6 +5,7 @@ ensureNew
 
 	Current  ifNil: [
 		Current := Periscope new.
+		SpecInterpreter bindings: PeriscopeMorphicBindings new.
 		Current openWithSpec.
 	"	Current widget window setToAdhereToEdge: #topRight.
 	 	Current window window snapToEdgeIfAppropriate.

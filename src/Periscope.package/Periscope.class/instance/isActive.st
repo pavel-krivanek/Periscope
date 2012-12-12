@@ -1,4 +1,4 @@
 accessing
 isActive
 
-	^ self window window isMinimized not
+	^ ((self window ifNil: [ ^ false ]) window ifNil: [ ^false ]) isMinimized not
