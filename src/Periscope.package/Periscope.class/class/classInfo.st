@@ -3,9 +3,9 @@ classInfo
 
 	^{ #ComposableSpec.
 		#add:. {{#model. #buttonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0@0 corner: 1@0).	(0@0 corner: 0@(18)). }}.
+				#layout:. #(FrameLayout
+								bottomFraction: 0
+								bottomOffset: 18)}.
 		#add:. {{#model. #listModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0@0 corner: 1@1).	(0@(18) corner: 0@0). }}.
-	}
+				#layout:. #(FrameLayout
+								topOffset: 18)}}

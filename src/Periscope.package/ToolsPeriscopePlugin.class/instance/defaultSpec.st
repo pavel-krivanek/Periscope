@@ -4,27 +4,32 @@ defaultSpec
 	^{ #ComposableSpec.
 		#vResizing:.	#shrinkWrap.
 		#add:. {{self. #finderButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0@0 corner: 0.125@1).	(0@0 corner: 0@0)}}.
+				#layout:. #(FrameLayout
+								rightFraction: 0.125)}.
 		#add:. {{self. #browserButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.125@0 corner: 0.25@1).(0@0 corner: 0@0)}}.
+				#layout:. #(FrameLayout
+								leftFraction: 0.125
+								rightFraction: 0.25)}.
 		#add:. {{self. #workspaceButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.25@0 corner: 0.375@1).(0@0 corner: 0@0)}}.
+				#layout:. #(FrameLayout
+								leftFraction: 0.25
+								rightFraction: 0.375)}.
 		#add:. {{self. #testRunnerButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.375@0 corner: 0.5@1).(0@0 corner: 0@0)}}.
+				#layout:.#(FrameLayout
+								leftFraction: 0.375
+								rightFraction: 0.5)}.
 		#add:. {{self. #monticelloButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.5@0 corner: 0.625@1).(0@0 corner: 0@0)}}.
+				#layout:. #(FrameLayout
+								leftFraction: 0.5
+								rightFraction: 0.625)}.
 		#add:. {{self. #recentMessagesButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.625@0 corner: 0.75@1).	(0@0 corner: 0@0)}}.
+				#layout:. #(FrameLayout
+								leftFraction: 0.625
+								rightFraction: 0.75)}.
 		#add:. {{self. #processBrowserButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.75@0 corner: 0.875@1).	(0@0 corner: 0@0)}}.
+				#layout:. #(FrameLayout
+								leftFraction: 0.75
+								rightFraction: 0.875)}.
 		#add:. {{self. #transcriptButtonModel}.
-				#layout:. {#FrameLayout.
-				#fractions:offsets:. 	(0.875@0 corner: 1@1).	(0@0 corner: 0@0)}}.
-	} 
+				#layout:. #(FrameLayout
+								leftFraction: 0.875)}} 
