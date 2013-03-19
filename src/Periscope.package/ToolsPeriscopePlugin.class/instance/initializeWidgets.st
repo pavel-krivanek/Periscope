@@ -43,7 +43,7 @@ initializeWidgets
 		state: false;
 		icon: (FinderUI icon);
 		label: '';
-		action: [ Smalltalk tools openFinder].
+		action: [ Finder open].
 
 	processBrowserButtonModel
 		state: false;
