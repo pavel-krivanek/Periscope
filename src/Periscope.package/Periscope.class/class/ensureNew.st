@@ -1,12 +1,11 @@
 as yet unclassified
 ensureNew
 
-	| font |
-
 	Current  ifNil: [
 		Current := Periscope new.
 		SpecInterpreter bindings: PeriscopeMorphicBindings new.
-		Current openWithSpec.
+		PeriscopeOpening value: true during: [ 
+			Current openWithSpec].
 	"	Current widget window setToAdhereToEdge: #topRight.
 	 	Current window window snapToEdgeIfAppropriate.
 		Current window title: 'Periscope'."

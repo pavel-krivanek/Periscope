@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DynamicVariable",
+	"category" : "Periscope-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PeriscopeOpening",
+	"type" : "normal"
+}
