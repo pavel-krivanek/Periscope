@@ -10,7 +10,7 @@ accept
 		ifTrue: [ 
 			(Smalltalk globals 
 				at: symbol
-				ifAbsent: [ ^self inform: 'There is no class named ', self model contents])
+				ifAbsent: [ ^self inform: 'There is no class named ', symbol])
 				browse ]
 		ifFalse: [ 
 			self systemNavigation browseAllImplementorsOf: symbol ]	
