@@ -7,7 +7,7 @@ version10: spec
 			spec description: 'Initial release'.
 			spec author: 'PavelKrivanek'.
 			spec timestamp: '11/14/2013 21:25'.	
-			spec package: 'Periscope' with: 'Periscope-PavelKrivanek.35'.
+			spec package: 'Periscope' with: 'Periscope-PavelKrivanek.36'.
 			
 			"postload"
 			spec postLoadDoIt: #postloadForCore:package:  ].
