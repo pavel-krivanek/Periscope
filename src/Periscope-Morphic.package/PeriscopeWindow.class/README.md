@@ -1,0 +1,1 @@
+Own morph for the main Periscope window
