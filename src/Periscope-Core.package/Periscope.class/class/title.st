@@ -1,4 +1,4 @@
-specs
+accessing
 title
 
 	^ 'Periscope'

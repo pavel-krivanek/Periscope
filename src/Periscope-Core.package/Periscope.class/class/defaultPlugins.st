@@ -2,19 +2,10 @@ as yet unclassified
 defaultPlugins
 
 	^ {
-	SpotlightPeriscopePlugin.
-ToolsPeriscopePlugin.
-BookmarksPeriscopePlugin.
-BehaviorReferencesPeriscopePlugin.
-TimeStampPeriscopePlugin.
-ShowImplementationPeriscopePlugin.
-
-"BookmarksPeriscopePlugin."
-"BookmarksPeriscopePlugin."
-	"	ShowImplementationPeriscopePlugin.
-		TimeStampPeriscopePlugin.
-		BehaviorReferencesPeriscopePlugin. 
-		BookmarksPeriscopePlugin.
+		SpotlightPeriscopePlugin.
 		ToolsPeriscopePlugin.
-		SpotlightPeriscopePlugin"
+		BookmarksPeriscopePlugin.
+		BehaviorReferencesPeriscopePlugin.
+		TimeStampPeriscopePlugin.
+		ShowImplementationPeriscopePlugin.
 	   } asOrderedCollection

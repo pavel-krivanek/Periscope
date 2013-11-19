@@ -1,2 +1,2 @@
-as yet unclassified
+Nautilus events
 selectionChanged: aText selectionInterval: anInterval

@@ -1,0 +1,1 @@
+basic Periscope entry point. A singleton.

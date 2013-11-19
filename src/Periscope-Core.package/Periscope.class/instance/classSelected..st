@@ -1,4 +1,4 @@
-accessing
+Nautilus events
 classSelected: aBehaviorOrNil 	
 	
 	self isActive ifFalse: [^ self].

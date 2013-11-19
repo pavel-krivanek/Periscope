@@ -1,4 +1,4 @@
-accessing
+Nautilus events
 selectionChanged: aText selectionInterval: anInterval
 
 	self isActive ifFalse: [^ self].

@@ -1,4 +1,6 @@
 accessing
-plugin: p
+plugin: aPlugin
 
-	^ p
+	"interesting code ;-)"
+
+	^ aPlugin

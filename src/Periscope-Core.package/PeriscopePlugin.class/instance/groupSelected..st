@@ -1,3 +1,3 @@
-as yet unclassified
+Nautilus events
 groupSelected: anAnnouncement
 
