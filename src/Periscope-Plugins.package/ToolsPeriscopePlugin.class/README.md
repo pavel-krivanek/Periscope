@@ -1,0 +1,1 @@
+shows a row of iconic buttons with basic tools

@@ -7,6 +7,6 @@ extendLayout: layout
 		   height: 18;
                newRow: [: r |
                         r add:  {#plugin:. self. #listModel}];
-            newRow: [: r |
+          	  newRow: [: r |
                         r add:  {#plugin:. self. #textModel}].
 		

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "SimpeListPeriscopePlugin",
 	"category" : "Periscope-Plugins",
 	"classinstvars" : [ ],

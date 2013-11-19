@@ -1,0 +1,1 @@
+general plugin class that shows plugin name and a list
