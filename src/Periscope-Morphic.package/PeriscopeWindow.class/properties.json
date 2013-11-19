@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpecWindow",
+	"category" : "Periscope-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PeriscopeWindow",
+	"type" : "normal"
+}

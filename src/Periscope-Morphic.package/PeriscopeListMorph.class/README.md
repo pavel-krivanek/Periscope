@@ -1,0 +1,1 @@
+A PeriscopeListMorph is special ListMorph subclass with smaller font

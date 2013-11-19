@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MorphicListAdapter",
+	"category" : "Periscope-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PeriscopeMorphicListAdapter",
+	"type" : "normal"
+}

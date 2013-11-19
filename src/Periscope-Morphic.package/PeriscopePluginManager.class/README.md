@@ -1,0 +1,1 @@
+A PeriscopePluginManager is a tool for Periscope plugins management. It is based on Nautilus plugin manager.
