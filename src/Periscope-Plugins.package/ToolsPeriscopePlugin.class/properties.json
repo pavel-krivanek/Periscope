@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "PeriscopePlugin",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"browserButtonModel",
+		"finderButtonModel",
+		"monticelloButtonModel",
+		"processBrowserButtonModel",
+		"recentMessagesButtonModel",
+		"testRunnerButtonModel",
+		"transcriptButtonModel",
+		"workspaceButtonModel"
+	],
+	"name" : "ToolsPeriscopePlugin",
+	"type" : "normal"
+}

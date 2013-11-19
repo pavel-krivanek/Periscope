@@ -1,0 +1,4 @@
+accessing
+transcriptButtonModel
+	
+	^ transcriptButtonModel

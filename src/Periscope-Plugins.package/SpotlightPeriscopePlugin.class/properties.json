@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "PeriscopePlugin",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current"
+	],
+	"instvars" : [
+		"textModel",
+		"previousFocus"
+	],
+	"name" : "SpotlightPeriscopePlugin",
+	"type" : "normal"
+}

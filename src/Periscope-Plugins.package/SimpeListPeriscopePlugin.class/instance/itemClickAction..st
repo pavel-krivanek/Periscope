@@ -1,0 +1,3 @@
+actions
+itemClickAction: item
+	

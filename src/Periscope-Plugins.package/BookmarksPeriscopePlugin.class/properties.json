@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "PeriscopePlugin",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CurrentBookmarks"
+	],
+	"instvars" : [
+		"addButtonModel",
+		"buttonModel",
+		"currentMethod",
+		"listModel"
+	],
+	"name" : "BookmarksPeriscopePlugin",
+	"type" : "normal"
+}

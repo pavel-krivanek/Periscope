@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SimpeListPeriscopePlugin",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textModel",
+		"lastSelector",
+		"process"
+	],
+	"name" : "ShowImplementationPeriscopePlugin",
+	"type" : "normal"
+}

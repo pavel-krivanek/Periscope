@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SimpeListPeriscopePlugin",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentBehavior",
+		"process"
+	],
+	"name" : "BehaviorReferencesPeriscopePlugin",
+	"type" : "normal"
+}
