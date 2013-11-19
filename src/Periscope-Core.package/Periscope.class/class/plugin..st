@@ -1,0 +1,4 @@
+specs
+plugin: p
+
+	^ p

@@ -1,0 +1,4 @@
+accessing
+plugin: p
+
+	^ p

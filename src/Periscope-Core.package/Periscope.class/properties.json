@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Periscope-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current",
+		"PluginClasses"
+	],
+	"instvars" : [
+		"plugins",
+		"lastText",
+		"lastInterval"
+	],
+	"name" : "Periscope",
+	"type" : "normal"
+}

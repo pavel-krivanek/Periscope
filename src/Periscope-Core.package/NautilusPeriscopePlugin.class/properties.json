@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AbstractNautilusPlugin",
+	"category" : "Periscope-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NautilusPeriscopePlugin",
+	"type" : "normal"
+}
