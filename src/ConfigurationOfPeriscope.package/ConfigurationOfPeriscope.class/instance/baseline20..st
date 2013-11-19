@@ -5,5 +5,7 @@ baseline20: spec
         spec for: #'pharo3.0.x' do: [
                 spec blessing: #baseline.
                 spec repository: 'http://smalltalkhub.com/mc/PavelKrivanek/Periscope/main/'.    
-		    spec package: 'Periscope'.
+		    spec package: 'Periscope-Core'.
+		    spec package: 'Periscope-Morphic'.
+		    spec package: 'Periscope-Plugins'.
         ].
