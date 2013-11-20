@@ -4,9 +4,6 @@ addModelItemsToWindowMenu: aMenu
 	"super addModelItemsToWindowMenu: aMenu."
 
 	aMenu addLine;
-		add: 'Periscope Plugins Manager'
-		target: self 
-		action: #openPluginsManager;
 		
 		add: 'reset to default plugins'
 		target: self
