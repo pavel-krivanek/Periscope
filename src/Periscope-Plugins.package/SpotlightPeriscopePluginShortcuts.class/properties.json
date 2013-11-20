@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "KMCategory",
+	"category" : "Periscope-Plugins",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpotlightPeriscopePluginShortcuts",
+	"type" : "normal"
+}
