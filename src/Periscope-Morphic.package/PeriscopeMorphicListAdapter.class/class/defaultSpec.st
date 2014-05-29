@@ -2,7 +2,7 @@ as yet unclassified
 defaultSpec
 	<spec: #default>
 	^ {#PeriscopeListMorph.
-			#color:. Color white.
+			#color:. Smalltalk ui theme backgroundColor.
 	    		#model:. 					#model.
 			#getListSizeSelector:. 			#listSize.
 			#getIndexSelector:. 			#getIndex.
